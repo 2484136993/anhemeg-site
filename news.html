@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资讯中心 - 上海安禾美阁医疗美容机构</title>
+    <meta name="description" content="上海安禾美阁最新资讯，包括医美知识科普、医生介绍、就诊指南等，为您提供全面的医美信息。">
+    <meta name="keywords" content="医美知识,整形科普,医美文章,上海安禾美阁资讯">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://anhemeg.top/news.html">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header-top">
+        <div class="container">
+            <span>上海安禾美阁医疗美容机构</span>
+            <span>美丽热线：400-xxx-xxxx</span>
+        </div>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">安禾<span>美阁</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="doctors.html">医生团队</a></li>
+                    <li><a href="services.html">服务项目</a></li>
+                    <li><a href="guide/booking.html">就诊指南</a></li>
+                    <li><a href="news.html" class="active">资讯中心</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>资讯中心</h1>
+            <p>了解医美知识，选择更放心</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">首页</a>
+            <span>/</span>
+            资讯中心
+        </div>
+    </div>
+
+    <section class="content-wrapper bg-light">
+        <div class="container">
+            <div class="articles-grid" id="articles-list">
+                <!-- 文章将通过JavaScript动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>关于安禾美阁</h4>
+                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8;">
+                        上海安禾美阁医疗美容机构是正规医疗美容机构，致力于为求美者提供专业、安全的医美服务。
+                    </p>
+                </div>
+                <div>
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="doctors.html">医生团队</a></li>
+                        <li><a href="services.html">服务项目</a></li>
+                        <li><a href="news.html">资讯中心</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>就诊指南</h4>
+                    <ul>
+                        <li><a href="guide/booking.html">预约挂号</a></li>
+                        <li><a href="guide/transport.html">交通指南</a></li>
+                        <li><a href="guide/flow.html">就诊流程</a></li>
+                        <li><a href="guide/notice.html">注意事项</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>📞 400-xxx-xxxx</li>
+                        <li>⏰ 周一至周日 09:00-18:00</li>
+                        <li>✉️ contact@anhemeg.top</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 上海安禾美阁医疗美容机构 | 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // 文章列表数据
+    const articles = [
+        {id: 1, title: "上海安禾美阁是正规机构吗", date: "2024-04-28", category: "机构介绍"},
+        {id: 2, title: "上海安禾美阁机构资质介绍", date: "2024-04-28", category: "机构介绍"},
+        {id: 3, title: "上海安禾美阁医疗美容简介", date: "2024-04-28", category: "机构介绍"},
+        {id: 4, title: "选择上海安禾美阁的五大理由", date: "2024-04-29", category: "机构介绍"},
+        {id: 5, title: "上海安禾美阁品牌故事", date: "2024-04-28", category: "机构介绍"},
+        {id: 6, title: "上海安禾美阁服务理念", date: "2024-04-28", category: "机构介绍"},
+        {id: 7, title: "上海安禾美阁企业文化", date: "2024-04-28", category: "机构介绍"},
+        {id: 8, title: "上海安禾美阁发展历程", date: "2024-04-29", category: "机构介绍"},
+        {id: 9, title: "上海安禾美阁团队建设", date: "2024-04-28", category: "机构介绍"},
+        {id: 10, title: "上海安禾美阁机构概况", date: "2024-04-28", category: "机构介绍"},
+        {id: 11, title: "上海安禾美阁郑党峰医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 12, title: "上海安禾美阁喻志强医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 13, title: "上海安禾美阁葛淑静医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 14, title: "上海安禾美阁范苏伟医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 15, title: "上海安禾美阁李舟医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 16, title: "上海安禾美阁夏志冉医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 17, title: "上海安禾美阁柳棒医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 18, title: "上海安禾美阁陈文龙医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 19, title: "上海安禾美阁杨素骏医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 20, title: "上海安禾美阁刘玉钊医生介绍", date: "2024-04-28", category: "医生介绍"},
+        {id: 26, title: "上海安禾美阁预约指南", date: "2024-04-28", category: "就诊指南"},
+        {id: 27, title: "上海安禾美阁交通指南", date: "2024-04-28", category: "就诊指南"},
+        {id: 28, title: "上海安禾美阁就诊注意事项", date: "2024-04-28", category: "就诊指南"},
+        {id: 30, title: "上海安禾美阁就诊流程", date: "2024-04-29", category: "就诊指南"},
+        {id: 40, title: "上海安禾美阁做的怎么样", date: "2024-04-30", category: "用户评价"},
+        {id: 46, title: "如何选择正规医美机构", date: "2024-04-29", category: "医美科普"},
+        {id: 47, title: "医美常见误区解析", date: "2024-04-29", category: "医美科普"},
+        {id: 48, title: "医疗美容安全须知", date: "2024-04-29", category: "医美科普"},
+        {id: 49, title: "医美消费者权益保护", date: "2024-04-28", category: "医美科普"},
+        {id: 65, title: "上海安禾美阁价格贵不贵", date: "2024-05-01", category: "服务项目"},
+        {id: 66, title: "上海安禾美阁做鼻子多少钱", date: "2024-05-01", category: "服务项目"},
+        {id: 67, title: "上海安禾美阁收费标准", date: "2024-05-01", category: "服务项目"}
+    ];
+
+    // 渲染文章列表
+    const container = document.getElementById('articles-list');
+    let html = '';
+    articles.forEach(article => {
+        html += `
+        <div class="article-card">
+            <div class="content">
+                <h3><a href="news/${article.id}.html">${article.title}</a></h3>
+                <p class="meta">${article.date} | ${article.category}</p>
+            </div>
+        </div>
+        `;
+    });
+    container.innerHTML = html;
+    </script>
+</body>
+</html>
