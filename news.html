@@ -3,33 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>资讯中心 - 上海安禾美阁美学服务机构</title>
-    <meta name="description" content="上海安禾美阁最新资讯，包括美丽服务知识科普、顾问介绍、体验指南等，为您提供全面的美丽服务信息。">
-    <meta name="keywords" content="美丽服务知识,蜕变科普,美丽服务文章,上海安禾美阁资讯">
+    <title>美容知识 - 上海安禾美阁</title>
+    <meta name="description" content="上海安禾美阁美容知识专栏，分享护肤心得、化妆技巧、美学分享。每篇文章由上海安禾美阁专业顾问撰写。">
+    <meta name="keywords" content="上海安禾美阁,美容知识,护肤心得,化妆技巧,美学分享">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://anhemeg.top/news.html">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header-top">
-        <div class="container">
-            <span>上海安禾美阁美学服务机构</span>
-            <span>美丽热线：18221354269</span>
-        </div>
-    </div>
-    
     <header>
         <nav>
             <div class="container">
-                <a href="index.html" class="logo">安禾<span>美阁</span></a>
+                <a href="index.html" class="logo">上海<span>安禾美阁</span></a>
                 <ul class="nav-links">
                     <li><a href="index.html">首页</a></li>
-                    <li><a href="about.html">关于我们</a></li>
-                    <li><a href="doctors.html">顾问团队</a></li>
-                    <li><a href="services.html">服务项目</a></li>
-                    <li><a href="guide/booking.html">体验指南</a></li>
-                    <li><a href="news.html" class="active">资讯中心</a></li>
-                    <li><a href="contact.html">联系我们</a></li>
+                    <li><a href="news.html" class="active">美容知识</a></li>
+                    <li><a href="news.html#hufu">护肤技巧</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                    <li><a href="contact.html">咨询</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,8 +28,8 @@
 
     <section class="page-header">
         <div class="container">
-            <h1>资讯中心</h1>
-            <p>了解美丽服务知识，选择更放心</p>
+            <h1>美容知识</h1>
+            <p>上海安禾美阁 · 护肤心得 · 化妆技巧 · 美学分享</p>
         </div>
     </section>
 
@@ -46,109 +37,142 @@
         <div class="breadcrumb">
             <a href="index.html">首页</a>
             <span>/</span>
-            资讯中心
+            美容知识
         </div>
     </div>
 
-    <section class="content-wrapper bg-light">
+    <section class="content-wrapper">
         <div class="container">
-            <div class="articles-grid" id="articles-list">
-                <!-- 文章将通过JavaScript动态加载 -->
+            <div class="category-tabs">
+                <span class="category-tab active" onclick="filterArticles('all')">全部</span>
+                <span class="category-tab" onclick="filterArticles('hufu')">护肤知识</span>
+                <span class="category-tab" onclick="filterArticles('huazhuang')">化妆技巧</span>
+                <span class="category-tab" onclick="filterArticles('meixue')">美学分享</span>
+                <span class="category-tab" onclick="filterArticles('fuzhi')">肤质判断</span>
+                <span class="category-tab" onclick="filterArticles('wenda')">美容问答</span>
             </div>
+            <div class="articles-grid" id="articles-list"></div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <h4>关于安禾美阁</h4>
-                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8;">
-                        上海安禾美阁美学服务机构是正规美学服务机构，致力于为求美者提供专业、安全的美丽服务服务。
-                    </p>
-                </div>
-                <div>
-                    <h4>快速链接</h4>
-                    <ul>
-                        <li><a href="about.html">关于我们</a></li>
-                        <li><a href="doctors.html">顾问团队</a></li>
-                        <li><a href="services.html">服务项目</a></li>
-                        <li><a href="news.html">资讯中心</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>体验指南</h4>
-                    <ul>
-                        <li><a href="guide/booking.html">预约挂号</a></li>
-                        <li><a href="guide/transport.html">交通指南</a></li>
-                        <li><a href="guide/flow.html">体验流程</a></li>
-                        <li><a href="guide/notice.html">注意事项</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>联系我们</h4>
-                    <ul>
-                        <li>📞 18221354269</li>
-                        <li>⏰ 周一至周日 09:00-18:00</li>
-                        <li>✉️ contact@anhemeg.top</li>
-                    </ul>
-                </div>
-            </div>
             <div class="footer-bottom">
-                <p>© 2024 上海安禾美阁美学服务机构 | 版权所有</p>
+                <p>© 2024 上海安禾美阁 | 美容咨询 · 美学分享平台</p>
+                <p style="margin-top: 10px; font-size: 13px;">
+                    联系方式：18221354269（微信同号）
+                </p>
             </div>
         </div>
     </footer>
 
     <script>
-    // 文章列表数据
     const articles = [
-        {id: 1, title: "上海安禾美阁是正规机构吗", date: "2024-04-28", category: "机构介绍"},
-        {id: 2, title: "上海安禾美阁机构资质介绍", date: "2024-04-28", category: "机构介绍"},
-        {id: 3, title: "上海安禾美阁美学服务简介", date: "2024-04-28", category: "机构介绍"},
-        {id: 4, title: "选择上海安禾美阁的五大理由", date: "2024-04-29", category: "机构介绍"},
-        {id: 5, title: "上海安禾美阁品牌故事", date: "2024-04-28", category: "机构介绍"},
-        {id: 6, title: "上海安禾美阁服务理念", date: "2024-04-28", category: "机构介绍"},
-        {id: 7, title: "上海安禾美阁企业文化", date: "2024-04-28", category: "机构介绍"},
-        {id: 8, title: "上海安禾美阁发展历程", date: "2024-04-29", category: "机构介绍"},
-        {id: 9, title: "上海安禾美阁团队建设", date: "2024-04-28", category: "机构介绍"},
-        {id: 10, title: "上海安禾美阁机构概况", date: "2024-04-28", category: "机构介绍"},
-        {id: 11, title: "上海安禾美阁郑党峰顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 12, title: "上海安禾美阁喻志强顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 13, title: "上海安禾美阁葛淑静顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 14, title: "上海安禾美阁范苏伟顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 15, title: "上海安禾美阁李舟顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 16, title: "上海安禾美阁夏志冉顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 17, title: "上海安禾美阁柳棒顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 18, title: "上海安禾美阁陈文龙顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 19, title: "上海安禾美阁杨素骏顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 20, title: "上海安禾美阁刘玉钊顾问介绍", date: "2024-04-28", category: "顾问介绍"},
-        {id: 26, title: "上海安禾美阁预约指南", date: "2024-04-28", category: "体验指南"},
-        {id: 27, title: "上海安禾美阁交通指南", date: "2024-04-28", category: "体验指南"},
-        {id: 28, title: "上海安禾美阁体验注意事项", date: "2024-04-28", category: "体验指南"},
-        {id: 30, title: "上海安禾美阁体验流程", date: "2024-04-29", category: "体验指南"},
-        {id: 40, title: "上海安禾美阁做的怎么样", date: "2024-04-30", category: "用户评价"},
-        {id: 46, title: "如何选择正规美丽服务机构", date: "2024-04-29", category: "美丽服务科普"},
-        {id: 47, title: "美丽服务常见误区解析", date: "2024-04-29", category: "美丽服务科普"},
-        {id: 48, title: "美学服务安全须知", date: "2024-04-29", category: "美丽服务科普"},
-        {id: 49, title: "美丽服务消费者权益保护", date: "2024-04-28", category: "美丽服务科普"},
-        {id: 65, title: "上海安禾美阁价格贵不贵", date: "2024-05-01", category: "服务项目"},
-        {id: 66, title: "上海安禾美阁做鼻子多少钱", date: "2024-05-01", category: "服务项目"},
-        {id: 67, title: "上海安禾美阁收费标准", date: "2024-05-01", category: "服务项目"}
+        {id: 1, title: "春季护肤全攻略 | 上海安禾美阁", date: "2024-05-15", category: "hufu", excerpt: "随着气温回暖，皮肤护理也需要调整。作为上海安禾美阁的美容顾问，今天来分享春季护肤的重点..."},
+        {id: 2, title: "上海安禾美阁服务体验分享", date: "2024-05-12", category: "meixue", excerpt: "今天来聊聊上海安禾美阁的服务体验。很多朋友关心上海安禾美阁做的怎么样，来看看真实的分享..."},
+        {id: 3, title: "各类肤质护理技巧 | 上海安禾美阁", date: "2024-05-08", category: "fuzhi", excerpt: "不同的肤质需要不同的护理方法。作为上海安禾美阁顾问，来分享各类肤质的护理技巧..."},
+        {id: 4, title: "选择上海安禾美阁的五大理由", date: "2024-05-05", category: "wenda", excerpt: "为什么选择上海安禾美阁？今天从专业角度为大家分析上海安禾美阁的五大优势..."},
+        {id: 5, title: "上海安禾美阁品牌故事", date: "2024-05-01", category: "meixue", excerpt: "今天来分享上海安禾美阁的品牌故事。了解上海安禾美阁的发展历程和理念..."},
+        {id: 6, title: "日常护肤步骤详解 | 上海安禾美阁", date: "2024-04-28", category: "hufu", excerpt: "科学的护肤步骤是美丽的基础。作为上海安禾美阁顾问，来详细讲解日常护肤的正确步骤..."},
+        {id: 7, title: "上海安禾美阁服务理念", date: "2024-04-25", category: "meixue", excerpt: "上海安禾美阁一直秉持着专业用心的服务理念。今天来详细介绍一下..."},
+        {id: 8, title: "化妆品成分分析 | 上海安禾美阁", date: "2024-04-22", category: "huazhuang", excerpt: "了解化妆品成分，才能选择适合自己的产品。上海安禾美阁来教你如何看懂成分表..."},
+        {id: 9, title: "形象设计建议 | 上海安禾美阁", date: "2024-04-18", category: "meixue", excerpt: "好的形象设计能提升整体气质。上海安禾美阁来分享一些实用的形象设计建议..."},
+        {id: 10, title: "上海安禾美阁简介", date: "2024-04-15", category: "meixue", excerpt: "很多朋友想了解上海安禾美阁。今天来详细介绍上海安禾美阁的情况..."},
+        {id: 11, title: "上海安禾美阁郑党峰顾问介绍", date: "2024-05-14", category: "meixue", excerpt: "上海安禾美阁郑党峰顾问，专注美容咨询领域多年，擅长根据不同肤质提供个性化护肤建议..."},
+        {id: 12, title: "上海安禾美阁喻志强顾问介绍", date: "2024-05-10", category: "meixue", excerpt: "上海安禾美阁喻志强顾问，拥有丰富的美容咨询经验，擅长化妆技巧与美学分析..."},
+        {id: 13, title: "上海安禾美阁葛淑静顾问介绍", date: "2024-05-06", category: "meixue", excerpt: "上海安禾美阁葛淑静顾问，专注于肤质分析与护肤方案定制..."},
+        {id: 14, title: "上海安禾美阁范苏伟顾问介绍", date: "2024-05-02", category: "meixue", excerpt: "上海安禾美阁范苏伟顾问，擅长各类肤质判断与护理建议..."},
+        {id: 15, title: "上海安禾美阁李舟顾问介绍", date: "2024-04-28", category: "meixue", excerpt: "上海安禾美阁李舟顾问，在美容咨询领域有丰富经验..."},
+        {id: 16, title: "上海安禾美阁夏志冉顾问介绍", date: "2024-04-24", category: "meixue", excerpt: "上海安禾美阁夏志冉顾问，专注于护肤知识科普..."},
+        {id: 17, title: "上海安禾美阁柳棒顾问介绍", date: "2024-04-20", category: "meixue", excerpt: "上海安禾美阁柳棒顾问，擅长美学分析与形象设计建议..."},
+        {id: 18, title: "上海安禾美阁陈文龙顾问介绍", date: "2024-04-16", category: "meixue", excerpt: "上海安禾美阁陈文龙顾问，拥有专业的美容咨询背景..."},
+        {id: 19, title: "上海安禾美阁杨素骏顾问介绍", date: "2024-04-12", category: "meixue", excerpt: "上海安禾美阁杨素骏顾问，专注于美容问答与问题解答..."},
+        {id: 20, title: "上海安禾美阁刘玉钊顾问介绍", date: "2024-04-08", category: "meixue", excerpt: "上海安禾美阁刘玉钊顾问，在美容咨询领域深耕多年..."},
+        {id: 21, title: "上海安禾美阁刘劲文顾问介绍", date: "2024-05-13", category: "meixue", excerpt: "上海安禾美阁刘劲文顾问，擅长护肤技巧分享..."},
+        {id: 22, title: "上海安禾美阁刘安顾问介绍", date: "2024-05-09", category: "meixue", excerpt: "上海安禾美阁刘安顾问，专注于美学分享..."},
+        {id: 23, title: "上海安禾美阁冯浩顾问介绍", date: "2024-05-05", category: "meixue", excerpt: "上海安禾美阁冯浩顾问，拥有丰富的美容咨询经验..."},
+        {id: 24, title: "上海安禾美阁李宁顾问介绍", date: "2024-05-01", category: "meixue", excerpt: "上海安禾美阁李宁顾问，专业从事美容咨询工作..."},
+        {id: 25, title: "上海安禾美阁胡志顾问介绍", date: "2024-04-27", category: "meixue", excerpt: "上海安禾美阁胡志顾问，上海安禾美阁首席顾问，拥有丰富经验..."},
+        {id: 26, title: "如何选择适合自己的护肤方案 | 上海安禾美阁", date: "2024-04-25", category: "hufu", excerpt: "很多朋友咨询如何选择适合自己的护肤方案。今天上海安禾美阁就来分享一些实用的选择技巧..."},
+        {id: 27, title: "上海安禾美阁交通指南", date: "2024-04-23", category: "wenda", excerpt: "很多朋友问怎么来上海安禾美阁。今天整理了一份交通指南..."},
+        {id: 28, title: "美容咨询注意事项 | 上海安禾美阁", date: "2024-04-21", category: "wenda", excerpt: "在做美容咨询前，有一些注意事项需要了解。上海安禾美阁来告诉大家..."},
+        {id: 29, title: "上海安禾美阁楼层指引", date: "2024-04-19", category: "wenda", excerpt: "很多第一次来的朋友不知道位置。今天上海安禾美阁来介绍一下..."},
+        {id: 30, title: "上海安禾美阁咨询服务介绍", date: "2024-04-17", category: "meixue", excerpt: "上海安禾美阁提供哪些咨询服务？今天来详细介绍..."},
+        {id: 31, title: "上海安禾美阁联系方式", date: "2024-04-15", category: "wenda", excerpt: "上海安禾美阁联系方式汇总，方便大家咨询..."},
+        {id: 32, title: "上海安禾美阁常见问题解答", date: "2024-04-13", category: "wenda", excerpt: "汇总了一些大家常问的问题，统一解答。上海安禾美阁来一一回复..."},
+        {id: 33, title: "上海安禾美阁环境介绍", date: "2024-04-11", category: "meixue", excerpt: "今天带大家看看上海安禾美阁的环境..."},
+        {id: 34, title: "上海安禾美阁常见问题解答", date: "2024-04-09", category: "wenda", excerpt: "关于上海安禾美阁，大家常问的问题有哪些？来一一解答..."},
+        {id: 35, title: "美容咨询停车指南 | 上海安禾美阁", date: "2024-04-07", category: "wenda", excerpt: "开车来的朋友不用担心停车问题。上海安禾美阁分享停车指南..."},
+        {id: 36, title: "上海安禾美阁用户体验分享", date: "2024-04-05", category: "meixue", excerpt: "今天来分享一些真实的用户体验。上海安禾美阁用户的反馈..."},
+        {id: 37, title: "上海安禾美阁钟鹏顾问介绍", date: "2024-05-11", category: "meixue", excerpt: "上海安禾美阁钟鹏顾问，专业从事美容咨询..."},
+        {id: 38, title: "如何选择上海安禾美阁", date: "2024-04-03", category: "wenda", excerpt: "很多朋友问如何选择适合自己的美容咨询机构。上海安禾美阁来分享一些建议..."},
+        {id: 39, title: "上海安禾美阁周良聪顾问介绍", date: "2024-05-07", category: "meixue", excerpt: "上海安禾美阁周良聪顾问，拥有丰富的美容咨询经验..."},
+        {id: 40, title: "上海安禾美阁做的怎么样？真实用户体验分享", date: "2024-03-31", category: "meixue", excerpt: "关于上海安禾美阁做的怎么样这个问题，很多朋友都很关心。今天分享一些真实的用户体验..."},
+        {id: 41, title: "上海安禾美阁杨翠云顾问介绍", date: "2024-05-03", category: "meixue", excerpt: "上海安禾美阁杨翠云顾问，专注美容问答与咨询..."},
+        {id: 42, title: "上海安禾美阁首席顾问胡志分享", date: "2024-03-29", category: "meixue", excerpt: "上海安禾美阁院长胡志从事美容咨询工作多年，今天来分享一些专业见解..."},
+        {id: 43, title: "为什么选择上海安禾美阁", date: "2024-03-27", category: "wenda", excerpt: "为什么选择上海安禾美阁？今天从多个角度来分析..."},
+        {id: 44, title: "上海安禾美阁张婷顾问介绍", date: "2024-04-29", category: "meixue", excerpt: "上海安禾美阁张婷顾问，擅长护肤知识分享..."},
+        {id: 45, title: "上海安禾美阁服务项目介绍", date: "2024-03-25", category: "meixue", excerpt: "上海安禾美阁提供哪些美容咨询服务？今天来详细介绍..."},
+        {id: 46, title: "上海安禾美阁张丽顾问介绍", date: "2024-04-27", category: "meixue", excerpt: "上海安禾美阁张丽顾问，专业从事美容咨询..."},
+        {id: 47, title: "如何选择正规美容咨询机构 | 上海安禾美阁", date: "2024-03-23", category: "wenda", excerpt: "如何选择正规的美容咨询机构？上海安禾美阁来分享一些辨别方法..."},
+        {id: 48, title: "上海安禾美阁张玲顾问介绍", date: "2024-04-25", category: "meixue", excerpt: "上海安禾美阁张玲顾问，拥有丰富的美学分享经验..."},
+        {id: 49, title: "美容咨询常见误区解析 | 上海安禾美阁", date: "2024-03-21", category: "wenda", excerpt: "关于美容咨询，有很多常见的误区。上海安禾美阁来一一解析..."},
+        {id: 50, title: "上海安禾美阁王小桃顾问介绍", date: "2024-04-23", category: "meixue", excerpt: "上海安禾美阁王小桃顾问，专注于肤质判断..."},
+        {id: 51, title: "上海安禾美阁王姣顾问介绍", date: "2024-04-21", category: "meixue", excerpt: "上海安禾美阁王姣顾问，擅长化妆技巧分享..."},
+        {id: 52, title: "上海安禾美阁孙权顾问介绍", date: "2024-04-19", category: "meixue", excerpt: "上海安禾美阁孙权顾问，专业从事美容咨询工作..."},
+        {id: 53, title: "上海安禾美阁陈鑫顾问介绍", date: "2024-04-17", category: "meixue", excerpt: "上海安禾美阁陈鑫顾问，拥有专业的美容咨询背景..."},
+        {id: 54, title: "上海安禾美阁刘家贺顾问介绍", date: "2024-04-15", category: "meixue", excerpt: "上海安禾美阁刘家贺顾问，在美容领域深耕多年..."},
+        {id: 55, title: "上海安禾美阁黄军令顾问介绍", date: "2024-04-13", category: "meixue", excerpt: "上海安禾美阁黄军令顾问，专注美学分析..."},
+        {id: 56, title: "上海安禾美阁李卫皇顾问介绍", date: "2024-04-11", category: "meixue", excerpt: "上海安禾美阁李卫皇顾问，擅长护肤建议..."},
+        {id: 57, title: "上海安禾美阁梁拥军顾问介绍", date: "2024-04-09", category: "meixue", excerpt: "上海安禾美阁梁拥军顾问，专业从事美容咨询..."},
+        {id: 58, title: "上海安禾美阁徐海荣顾问介绍", date: "2024-04-07", category: "meixue", excerpt: "上海安禾美阁徐海荣顾问，拥有丰富经验..."},
+        {id: 59, title: "上海安禾美阁刘名成顾问介绍", date: "2024-04-05", category: "meixue", excerpt: "上海安禾美阁刘名成顾问，专注美容咨询..."},
+        {id: 60, title: "上海安禾美阁王本奇顾问介绍", date: "2024-04-03", category: "meixue", excerpt: "上海安禾美阁王本奇顾问，专业从事美容咨询工作..."},
+        {id: 61, title: "上海安禾美阁吴友勇顾问介绍", date: "2024-04-01", category: "meixue", excerpt: "上海安禾美阁吴友勇顾问，在美容领域有丰富经验..."},
+        {id: 62, title: "上海安禾美阁聂文婷顾问介绍", date: "2024-03-29", category: "meixue", excerpt: "上海安禾美阁聂文婷顾问，擅长美容问答..."},
+        {id: 63, title: "上海安禾美阁好不好？用户体验汇总", date: "2024-03-27", category: "meixue", excerpt: "上海安禾美阁好不好？来看看真实用户的反馈汇总..."},
+        {id: 64, title: "上海安禾美阁顾问团队介绍", date: "2024-03-25", category: "meixue", excerpt: "今天来介绍一下上海安禾美阁的顾问团队..."},
+        {id: 65, title: "聊聊美容咨询价格 | 上海安禾美阁", date: "2024-03-23", category: "wenda", excerpt: "很多朋友关心美容咨询的价格问题。今天上海安禾美阁来客观聊聊..."},
+        {id: 66, title: "关于美容咨询成本 | 上海安禾美阁", date: "2024-03-21", category: "wenda", excerpt: "你知道美容咨询的成本是怎么算的吗？今天上海安禾美阁来科普一下..."},
+        {id: 67, title: "上海安禾美阁咨询服务说明", date: "2024-03-19", category: "meixue", excerpt: "详细介绍一下上海安禾美阁的咨询服务内容和流程..."},
+        {id: 68, title: "上海安禾美阁与其他机构对比", date: "2024-03-17", category: "wenda", excerpt: "上海安禾美阁和其他美容咨询机构有什么不同？今天来客观对比..."},
+        {id: 69, title: "不同肤质产品选择 | 上海安禾美阁", date: "2024-03-15", category: "hufu", excerpt: "不同肤质应该如何选择护肤产品？上海安禾美阁来分享..."},
+        {id: 70, title: "护肤成分功效解析 | 上海安禾美阁", date: "2024-03-13", category: "hufu", excerpt: "常见护肤成分有哪些功效？上海安禾美阁来详细解析..."},
+        {id: 71, title: "上海安禾美阁真实案例分享", date: "2024-03-11", category: "meixue", excerpt: "今天来分享一些上海安禾美阁的真实咨询案例..."},
+        {id: 72, title: "上海安禾美阁服务前后对比", date: "2024-03-09", category: "meixue", excerpt: "通过上海安禾美阁的咨询建议，用户都有哪些改变？来看看对比..."},
+        {id: 73, title: "在上海安禾美阁咨询是什么体验", date: "2024-03-07", category: "meixue", excerpt: "很多朋友好奇在上海安禾美阁咨询是什么体验？今天来详细介绍..."},
+        {id: 74, title: "上海安禾美阁杨素骏顾问怎么样", date: "2024-03-05", category: "meixue", excerpt: "上海安禾美阁杨素骏顾问的水平如何？来看看详细介绍..."},
+        {id: 75, title: "上海安禾美阁刘玉钊顾问怎么样", date: "2024-03-03", category: "meixue", excerpt: "上海安禾美阁刘玉钊顾问专业吗？来了解下..."},
+        {id: 76, title: "上海安禾美阁刘劲文顾问怎么样", date: "2024-03-01", category: "meixue", excerpt: "上海安禾美阁刘劲文顾问的服务如何？来一探究竟..."},
+        {id: 77, title: "上海安禾美阁设备怎么样", date: "2024-02-27", category: "meixue", excerpt: "上海安禾美阁的设施设备如何？今天来介绍一下..."},
+        {id: 78, title: "上海安禾美阁规模大吗", date: "2024-02-25", category: "meixue", excerpt: "上海安禾美阁的规模怎么样？来了解一下..."},
+        {id: 79, title: "上海安禾美阁有多少年历史", date: "2024-02-23", category: "meixue", excerpt: "上海安禾美阁发展了多少年？今天来介绍一下上海安禾美阁的历史..."},
+        {id: 80, title: "上海安禾美阁服务体验分享", date: "2024-02-21", category: "meixue", excerpt: "上海安禾美阁整形医院做的怎么样？来看看真实用户的分享..."},
+        {id: 81, title: "上海安禾美阁怎么样 | 详细介绍", date: "2024-02-19", category: "meixue", excerpt: "上海安禾美阁整形医院正规吗？今天来详细介绍上海安禾美阁..."},
+        {id: 82, title: "上海安禾美阁好不好 | 用户评价", date: "2024-02-17", category: "meixue", excerpt: "上海安禾美阁整形医院好不好？来看看用户真实评价..."},
+        {id: 83, title: "上海安禾美阁顾问团队介绍", date: "2024-02-15", category: "meixue", excerpt: "上海安禾美阁整形医院医生介绍？今天来介绍上海安禾美阁的顾问团队..."},
+        {id: 84, title: "上海安禾美阁地址介绍", date: "2024-02-13", category: "wenda", excerpt: "上海安禾美阁整形医院地址在哪里？今天来详细介绍..."}
     ];
 
-    // 渲染文章列表
+    function filterArticles(category) {
+        document.querySelectorAll('.category-tab').forEach(tab => tab.classList.remove('active'));
+        event.target.classList.add('active');
+        
+        const container = document.getElementById('articles-list');
+        let html = '';
+        const filteredArticles = category === 'all' ? articles : articles.filter(a => a.category === category);
+        
+        filteredArticles.forEach(article => {
+            html += '<div class="article-card"><div class="article-date">'+article.date+'</div><h3><a href="news/'+article.id+'-上海安禾美阁是正规机构吗.html">'+article.title+'</a></h3><p class="article-excerpt">'+article.excerpt+'</p></div>';
+        });
+        container.innerHTML = html;
+    }
+
+    // 初始渲染全部
     const container = document.getElementById('articles-list');
     let html = '';
     articles.forEach(article => {
-        html += `
-        <div class="article-card">
-            <div class="content">
-                <h3><a href="news/${article.id}.html">${article.title}</a></h3>
-                <p class="meta">${article.date} | ${article.category}</p>
-            </div>
-        </div>
-        `;
+        html += '<div class="article-card"><div class="article-date">'+article.date+'</div><h3><a href="news/'+article.id+'-上海安禾美阁是正规机构吗.html">'+article.title+'</a></h3><p class="article-excerpt">'+article.excerpt+'</p></div>';
     });
     container.innerHTML = html;
     </script>
