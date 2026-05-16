@@ -207,7 +207,76 @@ body {
 }
 
 /* 移动端适配 */
+
+/* 医师搜索标签区块 */
+.doctor-tags-section {
+    background: linear-gradient(135deg, #fff8f0 0%, #fef3e8 100%);
+    padding: 40px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.doctor-section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    color: #3d3d3d;
+    font-weight: 600;
+}
+.doctor-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.doctor-tag {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #fff;
+    color: #3d3d3d;
+    border-radius: 25px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid var(--primary);
+    font-weight: 500;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+.doctor-tag:hover {
+    background: var(--primary);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(212,165,116,0.3);
+}
 @media (max-width: 768px) {
+/* 移动端医师搜索标签突出样式 */
+.doctor-tags-section {
+    background: linear-gradient(135deg, #ffe8cc 0%, #ffd6a8 100%);
+    padding: 35px 0;
+}
+.doctor-section-title {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    text-align: center;
+}
+.doctor-tags {
+    gap: 12px;
+    padding: 0 5px;
+}
+.doctor-tag {
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    background: #fff;
+    border: 2px solid var(--primary);
+    color: var(--primary-dark);
+    font-weight: 600;
+    box-shadow: 0 3px 12px rgba(212,165,116,0.15);
+}
+.doctor-tag:hover, .doctor-tag:active {
+    background: var(--primary);
+    color: #fff;
+    transform: scale(1.05);
+}
+
     .fixed-contact-bar {
         width: 100vw;
     }
