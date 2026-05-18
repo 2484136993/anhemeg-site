@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://anhemeg.top/en/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/"/>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/services.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/services.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/services.html"/>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/visa.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/visa.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/visa.html"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/travel.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/travel.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/travel.html"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/aftercare.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/aftercare.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/aftercare.html"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/contact.html"/>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+</urlset>

@@ -111,4 +111,11 @@
     <url><loc>https://anhemeg.top/vi/travel.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
     <url><loc>https://anhemeg.top/vi/aftercare.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
     <url><loc>https://anhemeg.top/vi/contact.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+    <url><loc>https://anhemeg.top/en/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://anhemeg.top/en/services.html</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+    <url><loc>https://anhemeg.top/en/visa.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+    <url><loc>https://anhemeg.top/en/travel.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+    <url><loc>https://anhemeg.top/en/aftercare.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+    <url><loc>https://anhemeg.top/en/contact.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>
