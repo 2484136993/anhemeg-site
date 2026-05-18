@@ -6,3 +6,11 @@ Sitemap: https://anhemeg.top/vi/sitemap-vi.xml
 
 # Disallow no indexing needed
 Disallow: 
+
+# Cốc Cốc Search Engine (Vietnam)
+User-agent: coccocbot-web
+Allow: /
+Crawl-delay: 1
+
+User-agent: coccocbot-image
+Allow: /
