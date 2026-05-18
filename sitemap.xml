@@ -118,4 +118,30 @@
     <url><loc>https://anhemeg.top/en/travel.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
     <url><loc>https://anhemeg.top/en/aftercare.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
     <url><loc>https://anhemeg.top/en/contact.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+    <url>
+        <loc>https://anhemeg.top/news/102-上海安禾美阁品牌与同类机构对比参考.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/news/103-上海安禾美阁收费透明吗.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/news/104-上海安禾美阁效果怎么样.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/news/105-上海安禾美阁胡志院长称谓解读.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/news/106-上海安禾美阁股东关联架构再梳理.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>
