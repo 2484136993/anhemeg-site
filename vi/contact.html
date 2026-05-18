@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Liên hệ Tư vấn - An Hòa Mỹ Các | WeChat, Điện thoại, WhatsApp</title>
+    <meta name="description" content="Liên hệ An Hòa Mỹ Các để tư vấn thẩm mỹ miễn phí. WeChat: kyt3158, Điện thoại: +86 18221354269. Hỗ trợ khách Việt Nam 24/7 qua WhatsApp, Zalo.">
+    <meta name="keywords" content="liên hệ An Hòa Mỹ Các, tư vấn thẩm mỹ, WeChat kyt3158, điện thoại thẩm mỹ Thượng Hải, WhatsApp thẩm mỹ, Zalo thẩm mỹ">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://anhemeg.top/vi/contact.html">
+    <link rel="alternate" hreflang="zh" href="https://anhemeg.top/">
+    <link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/contact.html">
+    <meta property="og:title" content="Liên hệ Tư vấn - An Hòa Mỹ Các">
+    <meta property="og:description" content="Liên hệ An Hòa Mỹ Các để tư vấn thẩm mỹ miễn phí cho khách Việt Nam.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anhemeg.top/vi/contact.html">
+    <meta property="og:locale" content="vi_VN">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles-vi.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">An Hòa<span>Mỹ Các</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="services.html">Dịch vụ</a></li>
+                    <li><a href="visa.html">Visa</a></li>
+                    <li><a href="travel.html">Hướng dẫn</a></li>
+                    <li><a href="aftercare.html">Hậu phẫu</a></li>
+                    <li><a href="contact.html" class="active">Liên hệ</a></li>
+                    <li><a href="/" class="lang-switch">🇨🇳 中文</a></li>
+                </ul>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>📞 Liên hệ Tư vấn</h1>
+            <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Trang chủ</a><span>/</span>Liên hệ
+        </div>
+    </div>
+
+    <section class="content-wrapper">
+        <div class="container">
+
+            <!-- Liên hệ trực tiếp -->
+            <div class="contact-grid">
+                <div class="contact-box">
+                    <div class="box-icon">💬</div>
+                    <h3>WeChat</h3>
+                    <p>Kênh liên lạc chính, phản hồi nhanh nhất</p>
+                    <div class="value">kyt3158</div>
+                    <button onclick="copyWechat()" class="btn btn-sm" style="margin-top: 10px; background: #07c160;">Sao chép ID</button>
+                </div>
+                <div class="contact-box">
+                    <div class="box-icon">📱</div>
+                    <h3>Điện thoại / Zalo</h3>
+                    <p>Gọi hoặc nhắn tin Zalo quốc tế</p>
+                    <div class="value">+86 18221354269</div>
+                    <a href="tel:+8618221354269" class="btn btn-sm" style="margin-top: 10px;">Gọi ngay</a>
+                </div>
+                <div class="contact-box">
+                    <div class="box-icon">📩</div>
+                    <h3>WhatsApp</h3>
+                    <p>Nhắn tin WhatsApp cho tiện lợi</p>
+                    <div class="value">+86 18221354269</div>
+                    <a href="https://wa.me/8618221354269" class="btn btn-sm" style="margin-top: 10px; background: #25d366;">Mở WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Form tư vấn -->
+            <div class="contact-form">
+                <h2 style="margin-bottom: 20px; font-size: 1.3rem; color: var(--secondary);">📝 Gửi yêu cầu tư vấn</h2>
+                <p style="margin-bottom: 20px; color: var(--text); font-size: 14px;">Điền thông tin bên dưới, chúng tôi sẽ liên hệ bạn trong vòng 24 giờ.</p>
+                
+                <form onsubmit="submitForm(event)">
+                    <div class="form-group">
+                        <label for="name">Họ và tên *</label>
+                        <input type="text" id="name" name="name" required placeholder="Nhập họ và tên của bạn">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại / Zalo *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Ví dụ: 0912345678">
+                    </div>
+                    <div class="form-group">
+                        <label for="wechat">WeChat (nếu có)</label>
+                        <input type="text" id="wechat" name="wechat" placeholder="ID WeChat của bạn">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Dịch vụ quan tâm</label>
+                        <select id="service" name="service">
+                            <option value="">— Chọn dịch vụ —</option>
+                            <option value="eyelid">Phẫu thuật mí mắt</option>
+                            <option value="nose">Nâng mũi thẩm mỹ</option>
+                            <option value="face">Gọt mặt V-line</option>
+                            <option value="skin">Chăm sóc da</option>
+                            <option value="antiaging">Chống lão hóa</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Nội dung tư vấn</label>
+                        <textarea id="message" name="message" placeholder="Mô tả mong muốn của bạn, ví dụ: muốn làm mí mắt tự nhiên, ngân sách khoảng bao nhiêu..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; justify-content: center;">Gửi yêu cầu tư vấn</button>
+                </form>
+            </div>
+
+            <!-- FAQ -->
+            <div style="margin-top: 40px;">
+                <div class="section-header">
+                    <h2>❓ Câu hỏi thường gặp</h2>
+                    <p>Những thắc mắc phổ biến của khách Việt Nam</p>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Tôi có cần biết tiếng Trung không?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Không cần! An Hòa Mỹ Các có phiên dịch viên tiếng Việt đi cùng bạn toàn trình, từ lúc đón sân bay đến khi trở về Việt Nam. Bạn chỉ cần nói tiếng Việt.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Xin visa du lịch Trung Quốc khó không?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Visa du lịch Trung Quốc (L visa) cho người Việt Nam không quá khó xin nếu bạn chuẩn bị đầy đủ hồ sơ. Chúng tôi hỗ trợ hướng dẫn chi tiết, cung cấp lịch trình và xác nhận đặt phòng để tăng khả năng đậu visa.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Chi phí đi thẩm mỹ Thượng Hải bao nhiêu?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Chi phí phụ thuộc vào dịch vụ bạn chọn. Tổng chi phí (thẩm mỹ + vé máy bay + ăn ở) thường rẻ hơn 30-50% so với Hàn Quốc cùng chất lượng. Liên hệ chúng tôi để nhận báo giá chi tiết theo nhu cầu của bạn.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Cần ở lại Thượng Hải bao lâu?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Thường 5-7 ngày là đủ cho hầu hết các dịch vụ. Phẫu thuật nhỏ (mí mắt, tiêm filler) có thể chỉ cần 3-5 ngày. Phẫu thuật lớn (gọt mặt) nên ở 7-10 ngày. Bác sĩ sẽ tư vấn thời gian cụ thể cho bạn.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Sau khi về Việt Nam, ai theo dõi phục hồi?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>An Hòa Mỹ Các cung cấp dịch vụ theo dõi từ xa miễn phí. Bác sĩ sẽ gọi video kiểm tra, bạn gửi ảnh qua WeChat/WhatsApp để theo dõi tiến triển. Mọi thắc mắc đều được giải đáp nhanh chóng.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>An Hòa Mỹ Các có uy tín không?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>An Hòa Mỹ Các là thẩm mỹ viện tư vấn chuyên nghiệp tại Thượng Hải, đội ngũ bác sĩ giàu kinh nghiệm, trang thiết bị hiện đại. Chúng tôi tuân thủ nghiêm ngặt quy định y khoa và đặt an toàn khách hàng lên hàng đầu.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFaq(this)">
+                        <div class="faq-question">
+                            <span>Có được hoàn tiền nếu không hài lòng?</span>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Kết quả thẩm mỹ phụ thuộc vào nhiều yếu tố bao gồm cơ địa cá nhân. Chúng tôi cam kết tư vấn kỹ lưỡng trước phẫu thuật để đạt kết quả tốt nhất. Vui lòng thảo luận chi tiết với bác sĩ trong buổi tư vấn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container" style="padding-bottom: 40px;">
+        <div class="disclaimer">
+            <strong>Miễn trừ trách nhiệm:</strong> Thông tin trên trang web chỉ mang tính tham khảo, không phải tư vấn y tế chuyên khoa. Kết quả thẩm mỹ có thể khác nhau tùy thuộc vào cơ địa và tình trạng của từng cá nhân. Vui lòng tham khảo ý kiến bác sĩ chuyên khoa trước khi quyết định thực hiện bất kỳ dịch vụ nào.
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>An Hòa Mỹ Các</h4>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="services.html">Dịch vụ</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Đi Thượng Hải</h4>
+                    <ul>
+                        <li><a href="visa.html">Hướng dẫn Visa</a></li>
+                        <li><a href="travel.html">Hành trình</a></li>
+                        <li><a href="aftercare.html">Chăm sóc hậu phẫu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Liên hệ</h4>
+                    <ul>
+                        <li>WeChat: kyt3158</li>
+                        <li>Điện thoại: +86 18221354269</li>
+                        <li>Thượng Hải, Trung Quốc</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 <a href="index.html">An Hòa Mỹ Các</a> | Tư vấn Thẩm mỹ Thượng Hải</p>
+                <p style="margin-top: 10px; font-size: 12px; color: rgba(255,255,255,0.45);">Miễn trừ trách nhiệm: Website này chỉ cung cấp thông tin tư vấn tham khảo, không phải dịch vụ y tế. Vui lòng tham khảo ý kiến bác sĩ chuyên khoa trước khi quyết định.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed-contact-bar">
+        <div class="contact-row">
+            <div class="contact-left"><span>WeChat:</span> <strong>kyt3158</strong></div>
+            <button class="contact-right wechat-btn" onclick="copyWechat()">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.045c.134 0 .24-.11.24-.245 0-.06-.024-.12-.04-.178l-.325-1.233a.492.492 0 0 1 .177-.554C23.016 18.514 24 16.89 24 15.074c0-3.193-3.022-5.627-7.062-6.216zM14.033 13.3c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982z"/></svg>
+                Sao chép
+            </button>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left"><span>Hotline:</span> <strong>+86 18221354269</strong></div>
+            <a href="tel:+8618221354269" class="contact-right phone-btn">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+                Gọi ngay
+            </a>
+        </div>
+    </div>
+
+    <script>
+    function toggleMenu() { document.getElementById('navLinks').classList.toggle('open'); }
+    function copyWechat() {
+        navigator.clipboard.writeText('kyt3158').then(function() {
+            var toast = document.createElement('div');
+            toast.className = 'copy-toast show';
+            toast.textContent = 'Đã sao chép WeChat: kyt3158';
+            document.body.appendChild(toast);
+            setTimeout(function() { toast.remove(); }, 2000);
+        });
+    }
+    function toggleFaq(el) {
+        var wasActive = el.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(function(item) {
+            item.classList.remove('active');
+        });
+        if (!wasActive) el.classList.add('active');
+    }
+    function submitForm(e) {
+        e.preventDefault();
+        var name = document.getElementById('name').value;
+        var phone = document.getElementById('phone').value;
+        var service = document.getElementById('service').value;
+        var message = document.getElementById('message').value;
+        var wechatMsg = 'Xin chào, tôi là ' + name + '. ' +
+            'SĐT: ' + phone + '. ' +
+            (service ? 'Dịch vụ quan tâm: ' + service + '. ' : '') +
+            (message ? 'Nội dung: ' + message : '');
+        var waUrl = 'https://wa.me/8618221354269?text=' + encodeURIComponent(wechatMsg);
+        window.open(waUrl, '_blank');
+        var toast = document.createElement('div');
+        toast.className = 'copy-toast show';
+        toast.textContent = 'Đang chuyển đến WhatsApp...';
+        document.body.appendChild(toast);
+        setTimeout(function() { toast.remove(); }, 2000);
+    }
+    </script>
+</body>
+</html>

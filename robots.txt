@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://anhemeg.top/sitemap.xml
+Sitemap: https://anhemeg.top/vi/sitemap-vi.xml
 
 # Disallow no indexing needed
 Disallow: 
