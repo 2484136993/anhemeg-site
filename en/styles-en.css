@@ -673,3 +673,14 @@ footer { background: var(--secondary); color: rgba(255,255,255,0.75); padding: 4
     .play-btn::after { border-left-width: 13px; border-top-width: 8px; border-bottom-width: 8px; margin-left: 3px; }
     .video-card .case-label { font-size: 11px; padding: 20px 10px 8px; }
 }
+
+/* Case Tabs */
+.case-tabs { display: flex; gap: 10px; justify-content: center; margin-bottom: 24px; flex-wrap: wrap; }
+.case-tab { padding: 10px 24px; border: 2px solid var(--border); border-radius: 25px; background: var(--white); color: var(--text); font-size: 15px; cursor: pointer; transition: var(--transition); font-family: inherit; }
+.case-tab:hover { border-color: var(--primary-light); color: var(--primary); }
+.case-tab.active { background: var(--primary); color: var(--white); border-color: var(--primary); }
+.case-panel { display: none; }
+.case-panel.active { display: block; }
+/* WhatsApp button */
+.whatsapp-btn { background: #25d366; color: var(--white); }
+.whatsapp-btn:hover { background: #1da851; }
