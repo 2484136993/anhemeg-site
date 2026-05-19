@@ -463,47 +463,83 @@ footer { background: var(--secondary); color: rgba(255,255,255,0.75); padding: 4
 .footer-bottom p { margin-bottom: 6px; }
 .footer-bottom a { color: var(--primary-light); text-decoration: none; }
 
-/* FLOATING CONTACT BAR */
+/* Fixed Bottom Contact Bar - Vertical Stack */
 .fixed-contact-bar {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--white);
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
-    z-index: 999;
-    padding: 8px 12px;
+    z-index: 1000;
     display: flex;
-    gap: 8px;
+    flex-direction: column;
+    width: 100%;
 }
+
 .fixed-contact-bar .contact-row {
-    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: var(--light-bg);
-    border-radius: 8px;
-    padding: 8px 12px;
-}
-.fixed-contact-bar .contact-left { font-size: 12px; color: var(--text); }
-.fixed-contact-bar .contact-left strong { color: var(--primary); font-size: 13px; }
-.fixed-contact-bar .contact-right {
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    cursor: pointer;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 16px;
     border: none;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    transition: var(--transition);
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: filter 0.2s;
+    min-height: 44px;
+    box-sizing: border-box;
 }
-.wechat-btn { background: #07c160; color: var(--white); }
-.wechat-btn:hover { background: #06ae56; }
-.phone-btn { background: var(--primary); color: var(--white); }
-.phone-btn:hover { background: var(--primary-dark); }
+
+.fixed-contact-bar .contact-row:hover {
+    filter: brightness(1.1);
+}
+
+.fixed-contact-bar .contact-row:active {
+    filter: brightness(0.95);
+}
+
+.fixed-contact-bar .wechat-row {
+    background: #07C160;
+}
+
+.fixed-contact-bar .whatsapp-row {
+    background: #25D366;
+}
+
+.fixed-contact-bar .phone-row {
+    background: #c8556d;
+}
+
+.fixed-contact-bar .contact-icon {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.fixed-contact-bar .contact-text {
+    font-size: 14px;
+    color: #fff;
+}
+
+.fixed-contact-bar .contact-text strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Body padding for contact bar height (3 rows ~132px) */
+body {
+    padding-bottom: 132px;
+}
+
+/* Desktop: smaller compact version */
+@media (min-width: 769px) {
+    .fixed-contact-bar .contact-row {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
 
 .copy-toast {
     position: fixed;
@@ -626,7 +662,7 @@ html, body { overflow-x: hidden; }
 
 /* Touch-friendly targets - minimum 44px */
 .nav-links a, .lang-switch, .btn, .btn-sm, .faq-question, .case-tab,
-.fixed-contact-bar .contact-right, .contact-box .btn-sm {
+.contact-box .btn-sm {
     min-height: 44px;
     display: inline-flex;
     align-items: center;
@@ -716,91 +752,6 @@ html, body { overflow-x: hidden; }
     font-size: 11px;
     color: var(--text-light);
     margin-top: 2px;
-}
-
-/* ===== ENHANCED FLOATING CONTACT BAR ===== */
-.fixed-contact-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255,255,255,0.98);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    box-shadow: 0 -4px 24px rgba(0,0,0,0.08);
-    z-index: 999;
-    padding: 10px 16px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-.fixed-contact-bar .contact-row {
-    flex: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 8px 16px;
-    border-radius: 25px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: var(--transition);
-    min-height: 44px;
-}
-.fixed-contact-bar .contact-row:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-}
-
-/* Floating bar: compact icon+label style */
-.fixed-contact-bar .contact-left {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 13px;
-    color: rgba(255,255,255,0.9);
-    font-weight: 500;
-}
-.fixed-contact-bar .contact-left strong {
-    color: white;
-    font-size: 13px;
-}
-.fixed-contact-bar .contact-left span {
-    font-size: 12px;
-    opacity: 0.85;
-}
-.fixed-contact-bar .contact-right {
-    display: none; /* Hidden in new design - action is on the whole row */
-}
-
-/* New floating bar row styles */
-.fixed-contact-bar .wechat-row {
-    background: linear-gradient(135deg, #07C160, #06ae56);
-    color: white;
-    border: none;
-}
-.fixed-contact-bar .whatsapp-row {
-    background: linear-gradient(135deg, #25D366, #1da851);
-    color: white;
-    border: none;
-}
-.fixed-contact-bar .phone-row {
-    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-    color: white;
-    border: none;
-}
-
-/* Desktop: hide floating bar or show subtle version */
-@media (min-width: 769px) {
-    .fixed-contact-bar {
-        padding: 8px 20px;
-        gap: 12px;
-    }
-    .fixed-contact-bar .contact-row {
-        padding: 8px 20px;
-        border-radius: 25px;
-    }
 }
 
 /* ===== TABLE RESPONSIVE WRAPPER ===== */
@@ -944,31 +895,8 @@ html, body { overflow-x: hidden; }
         min-height: 40px;
     }
     
-    /* Floating bar mobile */
-    .fixed-contact-bar {
-        padding: 8px 12px;
-        gap: 6px;
-    }
-    .fixed-contact-bar .contact-row {
-        padding: 8px 12px;
-        border-radius: 20px;
-        font-size: 12px;
-        flex: 1;
-        justify-content: center;
-    }
-    .fixed-contact-bar .contact-left {
-        font-size: 12px;
-        gap: 3px;
-    }
-    .fixed-contact-bar .contact-left strong {
-        font-size: 12px;
-    }
-    .fixed-contact-bar .contact-left span {
-        display: none; /* Hide label on very small screens */
-    }
-    
-    /* Body padding for floating bar */
-    body { padding-bottom: 64px; }
+    /* Floating bar mobile - vertical stack, no changes needed */
+    body { padding-bottom: 132px; }
     
     /* Disclaimer */
     .disclaimer { padding: 16px; font-size: 12px; }
@@ -1029,20 +957,8 @@ html, body { overflow-x: hidden; }
     .case-tabs { gap: 6px; }
     .case-tab { padding: 8px 14px; font-size: 12px; }
     
-    /* Floating bar very compact */
-    .fixed-contact-bar { padding: 6px 8px; gap: 5px; }
-    .fixed-contact-bar .contact-row {
-        padding: 8px 10px;
-        border-radius: 18px;
-    }
-    .fixed-contact-bar .contact-left {
-        font-size: 11px;
-        gap: 2px;
-    }
-    .fixed-contact-bar .contact-left strong { font-size: 11px; }
-    .fixed-contact-bar svg { display: none; }
-    
-    body { padding-bottom: 58px; }
+    /* Floating bar very compact - vertical stack */
+    body { padding-bottom: 132px; }
     
     /* Footer */
     footer { padding: 24px 0 12px; margin-top: 30px; }
@@ -1061,15 +977,8 @@ html, body { overflow-x: hidden; }
     .contact-card .contact-icon { width: 36px; height: 36px; font-size: 1.1rem; }
     .contact-card .contact-value { font-size: 12px; }
     
-    .fixed-contact-bar { padding: 6px 6px; gap: 4px; }
-    .fixed-contact-bar .contact-row {
-        padding: 7px 8px;
-        border-radius: 16px;
-    }
-    .fixed-contact-bar .contact-left { font-size: 10px; }
-    .fixed-contact-bar .contact-left strong { font-size: 10px; }
-    
-    body { padding-bottom: 54px; }
+    .fixed-contact-bar .contact-row { padding: 10px 14px; }
+    body { padding-bottom: 132px; }
     
     .page-header h1 { font-size: 1.05rem; }
     .page-header { padding: 24px 0; }
@@ -1091,7 +1000,7 @@ html { scroll-padding-top: 70px; }
     transform: scale(0.97);
 }
 .fixed-contact-bar .contact-row:active {
-    transform: scale(0.95);
+    filter: brightness(0.95);
 }
 .btn:active {
     transform: scale(0.97);
@@ -1100,7 +1009,7 @@ html { scroll-padding-top: 70px; }
 /* ===== WHATSAPP FLOATING BUTTON (optional widget) ===== */
 .whatsapp-float {
     position: fixed;
-    bottom: 80px;
+    bottom: 140px;
     right: 16px;
     width: 56px;
     height: 56px;
