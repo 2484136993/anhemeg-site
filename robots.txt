@@ -1,12 +1,11 @@
 User-agent: *
 Allow: /
 
+# Sitemaps
+Sitemap: https://anhemeg.top/sitemap-index.xml
 Sitemap: https://anhemeg.top/sitemap.xml
 Sitemap: https://anhemeg.top/vi/sitemap-vi.xml
 Sitemap: https://anhemeg.top/en/sitemap-en.xml
-
-# Disallow no indexing needed
-Disallow: 
 
 # Cốc Cốc Search Engine (Vietnam)
 User-agent: coccocbot-web
@@ -15,3 +14,11 @@ Crawl-delay: 1
 
 User-agent: coccocbot-image
 Allow: /
+
+# Bingbot
+User-agent: bingbot
+Allow: /
+Crawl-delay: 1
+
+# IndexNow key verification
+# Key file: 3a2ad62b4233967f87f44be0ead731d4.txt
