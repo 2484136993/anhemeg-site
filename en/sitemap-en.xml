@@ -89,4 +89,139 @@
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
     </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.8</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/1-shanghai-plastic-surgery-reviews.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/1-shanghai-plastic-surgery-reviews.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-06-15</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/2-best-plastic-surgery-clinic-shanghai.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/2-best-plastic-surgery-clinic-shanghai.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/3-is-plastic-surgery-in-shanghai-safe.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/3-is-plastic-surgery-in-shanghai-safe.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-06-10</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/4-anhe-meige-reviews-international-patients.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/4-anhe-meige-reviews-international-patients.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-06-08</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/5-shanghai-cosmetic-surgery-clinic-reviews.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/5-shanghai-cosmetic-surgery-clinic-reviews.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-06-05</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/6-is-anhe-meige-legitimate.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/6-is-anhe-meige-legitimate.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-06-02</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/7-anhe-meige-licensed-clinic-shanghai.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/7-anhe-meige-licensed-clinic-shanghai.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-28</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/8-is-anhe-meige-trustworthy.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/8-is-anhe-meige-trustworthy.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-25</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/9-plastic-surgery-prices-shanghai.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/9-plastic-surgery-prices-shanghai.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-22</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/10-shanghai-cosmetic-surgery-cost-comparison.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/10-shanghai-cosmetic-surgery-cost-comparison.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-18</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/11-rhinoplasty-cost-shanghai.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/11-rhinoplasty-cost-shanghai.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-15</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/12-dr-hu-zhi-plastic-surgeon-review.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/12-dr-hu-zhi-plastic-surgeon-review.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-12</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/13-dr-su-bin-cosmetic-surgeon-review.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/13-dr-su-bin-cosmetic-surgeon-review.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-10</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/14-medical-tourism-shanghai-guide.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/14-medical-tourism-shanghai-guide.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-07</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/15-why-choose-anhe-meige-shanghai.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/15-why-choose-anhe-meige-shanghai.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-04</lastmod>
+    </url>
+    <url>
+        <loc>https://anhemeg.top/en/news/16-what-to-expect-plastic-surgery-shanghai.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/16-what-to-expect-plastic-surgery-shanghai.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://anhemeg.top/news.html"/>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2025-05-01</lastmod>
+    </url>
 </urlset>
