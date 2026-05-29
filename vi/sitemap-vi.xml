@@ -1,408 +1,555 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://anhemeg.top/vi/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://anhemeg.top/vi/index.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/services.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/about.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://anhemeg.top/vi/pricing.html</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://anhemeg.top/vi/doctors.html</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://anhemeg.top/vi/reviews.html</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://anhemeg.top/vi/recovery.html</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://anhemeg.top/vi/aftercare.html</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://anhemeg.top/vi/faq.html</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://anhemeg.top/vi/contact.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/doctors.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/services.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/pricing.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/reviews.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/recovery.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/aftercare.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/faq.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://anhemeg.top/vi/travel.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://anhemeg.top/vi/visa.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://anhemeg.top/vi/news/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://anhemeg.top/vi/news/index.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/1-an-hoa-my-cac-review-an-hoa-my-cac-review.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/1-an-hoa-my-cac-review.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/2-phau-thuat-tham-my-thuong-hai-co-tot-khong-phau-thuat-tham-my-thuong-hai-co-tot-khong.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/2-phau-thuat-tham-my-thuong-hai-co-tot-khong.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/3-an-hoa-my-cac-khach-hang-viet-nam-an-hoa-my-cac-khach-hang-viet-nam.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/3-an-hoa-my-cac-khach-hang-viet-nam.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/4-an-hoa-my-cac-co-uy-tin-khong-an-hoa-my-cac-co-uy-tin-khong.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/4-an-hoa-my-cac-co-uy-tin-khong.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/5-an-hoa-my-cac-co-chinh-quy-khong-an-hoa-my-cac-co-chinh-quy-khong.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/5-an-hoa-my-cac-co-chinh-quy-khong.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/6-an-hoa-my-cac-dang-tin-khong-an-hoa-my-cac-dang-tin-khong.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/6-an-hoa-my-cac-dang-tin-khong.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/7-vien-tham-my-thuong-hai-chinh-quy-cho-nguoi-viet-vien-tham-my-thuong-hai-chinh-quy-cho-nguoi-viet.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/7-vien-tham-my-thuong-hai-chinh-quy-cho-nguoi-viet.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/8-an-hoa-my-cac-hop-ly-va-an-toan-an-hoa-my-cac-hop-ly-va-an-toan.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/8-an-hoa-my-cac-hop-ly-va-an-toan.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/9-bang-gia-phau-thuat-tham-my-thuong-hai-bang-gia-phau-thuat-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/9-bang-gia-phau-thuat-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/10-chi-phi-cat-mi-nang-mui-thuong-hai-chi-phi-cat-mi-nang-mui-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/10-chi-phi-cat-mi-nang-mui-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/11-gia-tham-my-thuong-hai-vs-han-quoc-gia-tham-my-thuong-hai-vs-han-quoc.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/11-gia-tham-my-thuong-hai-vs-han-quoc.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/12-bac-si-ho-chi-an-hoa-my-cac-bac-si-ho-chi-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/12-bac-si-ho-chi-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/13-bac-si-to-bin-an-hoa-my-cac-bac-si-to-bin-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/13-bac-si-to-bin-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/14-an-hoa-my-cac-vs-cac-phong-kham-khac-an-hoa-my-cac-vs-cac-phong-kham-khac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/14-an-hoa-my-cac-vs-cac-phong-kham-khac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/15-diem-khac-biet-an-hoa-my-cac-diem-khac-biet-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/15-diem-khac-biet-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/16-an-hoa-my-cac-thuong-hieu-tham-my-thuong-hai-an-hoa-my-cac-thuong-hieu-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/16-an-hoa-my-cac-thuong-hieu-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/17-kinh-nghiem-di-tham-my-thuong-hai-kinh-nghiem-di-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/17-kinh-nghiem-di-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/18-visa-di-tham-my-thuong-hai-visa-di-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/18-visa-di-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/19-cang-da-mat-thuong-hai-huong-dan-cang-da-mat-thuong-hai-huong-dan.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/19-cang-da-mat-thuong-hai-huong-dan.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/20-nang-nguc-thuong-hai-huong-dan-nang-nguc-thuong-hai-huong-dan.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/20-nang-nguc-thuong-hai-huong-dan.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/21-got-mat-v-line-thuong-hai-got-mat-v-line-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/21-got-mat-v-line-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/22-cat-mi-mat-thuong-hai-huong-dan-cat-mi-mat-thuong-hai-huong-dan.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/22-cat-mi-mat-thuong-hai-huong-dan.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/23-trang-da-laser-thuong-hai-trang-da-laser-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/23-trang-da-laser-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/24-nang-mui-thuong-hai-huong-dan-nang-mui-thuong-hai-huong-dan.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/24-nang-mui-thuong-hai-huong-dan.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/25-kinh-nghiem-hau-phau-thuong-hai-kinh-nghiem-hau-phau-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/25-kinh-nghiem-hau-phau-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/26-hut-mo-body-contouring-thuong-hai-hut-mo-body-contouring-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/26-hut-mo-body-contouring-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/27-so-sanh-tham-my-trung-quoc-han-quoc-so-sanh-tham-my-trung-quoc-han-quoc.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/27-so-sanh-tham-my-trung-quoc-han-quoc.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/28-anh-hoa-my-cac-trai-nghiem-khach-hang-quoc-te-anh-hoa-my-cac-trai-nghiem-khach-hang-quoc-te.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/28-anh-hoa-my-cac-trai-nghiem-khach-hang-quoc-te.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/29-xac-minh-phong-kham-tham-my-thuong-hai-xac-minh-phong-kham-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/29-xac-minh-phong-kham-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/30-yeu-to-gia-tham-my-thuong-hai-2026-yeu-to-gia-tham-my-thuong-hai-2026.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/30-yeu-to-gia-tham-my-thuong-hai-2026.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/31-bac-si-ho-chi-giam-doc-y-te-an-hoa-my-cac-bac-si-ho-chi-giam-doc-y-te-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/31-bac-si-ho-chi-giam-doc-y-te-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/32-chuan-bi-du-lich-tham-my-thuong-hai-chuan-bi-du-lich-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/32-chuan-bi-du-lich-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/33-so-sanh-phong-kham-tham-my-thuong-hai-so-sanh-phong-kham-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/33-so-sanh-phong-kham-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/34-hoi-phuc-sau-tham-my-thuong-hai-hoi-phuc-sau-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/34-hoi-phuc-sau-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/35-phan-tich-danh-gia-an-hoa-my-cac-phan-tich-danh-gia-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/35-phan-tich-danh-gia-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/36-thuong-hai-vs-seoul-tham-my-thuong-hai-vs-seoul-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/36-thuong-hai-vs-seoul-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/37-visa-du-lich-y-te-trung-quoc-2026-visa-du-lich-y-te-trung-quoc-2026.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/37-visa-du-lich-y-te-trung-quoc-2026.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/38-huong-dan-chon-dich-vu-tham-my-thuong-hai-huong-dan-chon-dich-vu-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/38-huong-dan-chon-dich-vu-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/39-so-sanh-cac-co-so-tu-van-tham-my-thuong-hai-so-sanh-cac-co-so-tu-van-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/39-so-sanh-cac-co-so-tu-van-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/40-cac-cau-hoi-quan-trong-khi-chon-dich-vu-tham-my-cac-cau-hoi-quan-trong-khi-chon-dich-vu-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/40-cac-cau-hoi-quan-trong-khi-chon-dich-vu-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/41-quy-trinh-tu-van-tham-my-thuong-hai-quy-trinh-tu-van-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/41-quy-trinh-tu-van-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/42-dau-hieu-canh-bao-khi-chon-dich-vu-tham-my-dau-hieu-canh-bao-khi-chon-dich-vu-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/42-dau-hieu-canh-bao-khi-chon-dich-vu-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/43-lap-ke-hoach-tai-chinh-dich-vu-tham-my-lap-ke-hoach-tai-chinh-dich-vu-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/43-lap-ke-hoach-tai-chinh-dich-vu-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/44-du-lich-y-te-thuong-hai-tong-quan-du-lich-y-te-thuong-hai-tong-quan.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/44-du-lich-y-te-thuong-hai-tong-quan.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/45-trai-nghiem-tu-van-tham-my-lan-dau-tien-trai-nghiem-tu-van-tham-my-lan-dau-tien.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/45-trai-nghiem-tu-van-tham-my-lan-dau-tien.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/46-danh-gia-chung-chi-tieu-chuan-dich-vu-tham-my-danh-gia-chung-chi-tieu-chuan-dich-vu-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/46-danh-gia-chung-chi-tieu-chuan-dich-vu-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/47-hieu-ve-quyen-loi-khi-su-dung-dich-vu-tham-my-hieu-ve-quyen-loi-khi-su-dung-dich-vu-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/47-hieu-ve-quyen-loi-khi-su-dung-dich-vu-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/49-ho-tro-khach-hang-quoc-te-an-hoa-my-cac-ho-tro-khach-hang-quoc-te-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/49-ho-tro-khach-hang-quoc-te-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/50-quy-trinh-dat-lich-tu-van-an-hoa-my-cac-quy-trinh-dat-lich-tu-van-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/50-quy-trinh-dat-lich-tu-van-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/51-chi-phi-phau-thuat-tham-my-thuong-hai-2026-chi-phi-phau-thuat-tham-my-thuong-hai-2026.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/51-chi-phi-phau-thuat-tham-my-thuong-hai-2026.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/52-so-sanh-phong-kham-tham-my-thuong-hai-hong-kong-so-sanh-phong-kham-tham-my-thuong-hai-hong-kong.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/52-so-sanh-phong-kham-tham-my-thuong-hai-hong-kong.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/53-tra-sua-da-sau-phau-thuat-thuong-hai-tra-sua-da-sau-phau-thuat-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/53-tra-sua-da-sau-phau-thuat-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/54-an-hoa-my-cac-quy-trinh-tu-van-chuyen-nghiep-an-hoa-my-cac-quy-trinh-tu-van-chuyen-nghiep.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/54-an-hoa-my-cac-quy-trinh-tu-van-chuyen-nghiep.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/55-lua-chon-bac-si-tham-my-gioi-thuong-hai-lua-chon-bac-si-tham-my-gioi-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/55-lua-chon-bac-si-tham-my-gioi-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/56-du-lich-ket-hop-tham-my-thuong-hai-du-lich-ket-hop-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/56-du-lich-ket-hop-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/57-tham-my-mat-trai-dat-ky-tuong-tuong-tham-my-mat-trai-dat-ky-tuong-tuong.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/57-tham-my-mat-trai-dat-ky-tuong-tuong.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/58-cam-on-khieu-khach-hang-an-hoa-my-cac-cam-on-khieu-khach-hang-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/58-cam-on-khieu-khach-hang-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/59-tim-hieu-ve-an-hoa-my-cac-thuong-hai-tim-hieu-ve-an-hoa-my-cac-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/59-tim-hieu-ve-an-hoa-my-cac-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/60-chi-phi-thu-thuat-tham-my-thuong-hai-chi-phi-thu-thuat-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/60-chi-phi-thu-thuat-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/61-an-toan-chat-luong-phong-kham-tham-my-thuong-hai-an-toan-chat-luong-phong-kham-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/61-an-toan-chat-luong-phong-kham-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/62-du-lich-y-te-thuong-hai-benh-nhan-quoc-te-du-lich-y-te-thuong-hai-benh-nhan-quoc-te.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/62-du-lich-y-te-thuong-hai-benh-nhan-quoc-te.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/63-cac-thu-thuat-tham-my-pho-bien-thuong-hai-cac-thu-thuat-tham-my-pho-bien-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/63-cac-thu-thuat-tham-my-pho-bien-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/64-cham-soc-hoi-phuc-sau-thu-thuat-tham-my-cham-soc-hoi-phuc-sau-thu-thuat-tham-my.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/64-cham-soc-hoi-phuc-sau-thu-thuat-tham-my.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/65-an-hoa-my-cac-doi-tac-du-lich-y-te-thuong-hai-an-hoa-my-cac-doi-tac-du-lich-y-te-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/65-an-hoa-my-cac-doi-tac-du-lich-y-te-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/66-trai-nghiem-thuc-te-benh-nhan-an-hoa-my-cac-trai-nghiem-thuc-te-benh-nhan-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/66-trai-nghiem-thuc-te-benh-nhan-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/67-lua-chon-phong-kham-tham-my-thuong-hai-lua-chon-phong-kham-tham-my-thuong-hai.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/67-lua-chon-phong-kham-tham-my-thuong-hai.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anhemeg.top/vi/news/68-quy-trinh-tu-van-tham-my-an-hoa-my-cac-quy-trinh-tu-van-tham-my-an-hoa-my-cac.html</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://anhemeg.top/vi/news/68-quy-trinh-tu-van-tham-my-an-hoa-my-cac.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/69-gioi-thieu-dong-doi-bac-si-anhe-meige.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/70-cac-loai-dich-vu-va-tuy-chon-tu-van-tai-anhe-meige.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/71-tai-sao-benh-nhan-quoc-te-chon-anhe-meige-thượng-hải.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/72-chuyến-thăm-đầu-tiên-của-bạn-đến-anhe-meige-hướng-dẫn-đầy-đủ.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/73-hướng-dẫn-vị-trí-và-giao-thông-đến-anhe-meige.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/74-mẹo-tư-vấn-thẩm-mỹ-cho-bệnh-nhân-lần-đầu.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/75-cam-kết-chat-lượng-tư-vấn-cua-anhe-meige.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/76-giải-đáp-câu-hỏi-thường-gặp-về-tư-vấn-thẩm-mỹ.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/77-lên-kế-hoạch-cho-chuyến-tư-vấn-thẩm-mỹ-đến-thượng-hải.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/78-an-toàn-va-bao-mat-khi-tu-van-thẩm-mỹ-tai-anhe-meige.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/index.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
