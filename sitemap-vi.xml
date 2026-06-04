@@ -328,4 +328,10 @@
     <loc>https://anhemeg.top/vi/news/phau-thuat-tham-my-thuong-hai-can-luu-y-gi.html</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/gia-cang-da-mat-thuong-hai-bao-nhieu.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
