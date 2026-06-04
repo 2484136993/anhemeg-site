@@ -4,8 +4,13 @@ Allow: /
 # Sitemaps
 Sitemap: https://anhemeg.top/sitemap-index.xml
 Sitemap: https://anhemeg.top/sitemap.xml
-Sitemap: https://anhemeg.top/vi/sitemap-vi.xml
 Sitemap: https://anhemeg.top/en/sitemap-en.xml
+Sitemap: https://anhemeg.top/vi/sitemap-vi.xml
+
+# ChatGPT (GPTBot)
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
 
 # Cốc Cốc Search Engine (Vietnam)
 User-agent: coccocbot-web
