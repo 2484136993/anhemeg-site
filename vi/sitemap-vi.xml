@@ -838,4 +838,10 @@
     <loc>https://anhemeg.top/vi/news/so-sanh-tham-my-thuong-hai-han-quoc.html</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/huong-dan-du-lich-y-te-thuong-hai-cho-nguoi-viet.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
