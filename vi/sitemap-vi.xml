@@ -844,4 +844,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/gia-phau-thuat-mui-thuong-hai-2026-huong-dan-chi-tiet.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/gia-cang-da-mat-thuong-hai-2026-huong-dan-chi-tiet.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/phau-thuat-tham-my-thuong-hai-can-luu-y-gi-huong-dan.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
