@@ -368,4 +368,10 @@
     <loc>https://anhemeg.top/vi/news/20-huong-dan-so-sanh-phong-kham-tham-my-thuong-hai.html</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/cang-da-mat-thuong-hai-can-luu-y-gi.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

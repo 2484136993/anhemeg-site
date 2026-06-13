@@ -364,4 +364,10 @@
     <loc>https://anhemeg.top/en/news/20-shanghai-aesthetic-clinic-comparison-guide.html</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://anhemeg.top/en/news/facelift-shanghai-what-to-note.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
