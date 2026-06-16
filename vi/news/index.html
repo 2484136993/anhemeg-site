@@ -3,400 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tin Tức Thẩm Mỹ Thượng Hải | An Hòa Mỹ Các</title>
-    <meta name="description" content="Tin tức và bài viết tham khảo về phẫu thuật thẩm mỹ Thượng Hải, An Hòa Mỹ Các. Đánh giá, bảng giá, bác sĩ và kinh nghiệm từ khách hàng Việt Nam.">
-    <meta name="keywords" content="tin tức thẩm mỹ Thượng Hải, An Hòa Mỹ Các tin tức, đánh giá thẩm mỹ, bảng giá thẩm mỹ, bác sĩ thẩm mỹ Thượng Hải">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="An Hòa Mỹ Các">
-    <link rel="canonical" href="https://anhemeg.top/vi/news/"><meta property="og:title" content="Tin Tức Thẩm Mỹ Thượng Hải | An Hòa Mỹ Các">
-    <meta property="og:description" content="Tin tức và bài viết tham khảo về phẫu thuật thẩm mỹ Thượng Hải, An Hòa Mỹ Các.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://anhemeg.top/vi/news/">
-    <meta property="og:locale" content="vi_VN">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="../styles-vi.css">
+    <title>Trung tâm Tin tức - Anhe Meige Thẩm mỹ Thượng Hải</title>
+    <meta name="description" content="Trung tâm tin tức Anhe Meige - Hướng dẫn chuyên gia về du lịch y tế, phẫu thuật thẩm mỹ và điều trị làm đẹp tại Thượng Hải cho bệnh nhân quốc tế.">
+    <link rel="canonical" href="https://anhemeg.top/vi/news/">
+    <link rel="alternate" hreflang="vi" href="https://anhemeg.top/vi/news/">
+    <link rel="alternate" hreflang="zh" href="https://anhemeg.top/news/">
+    <link rel="alternate" hreflang="en" href="https://anhemeg.top/en/news/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .header { background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color: white; padding: 60px 20px; text-align: center; }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .header p { opacity: 0.9; font-size: 1.1em; }
+        .lang-bar { background: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .lang-bar a { display: inline-block; padding: 8px 20px; margin: 5px; background: #f0f0f0; border-radius: 20px; text-decoration: none; color: #333; transition: all 0.3s; }
+        .lang-bar a:hover { background: #e74c3c; color: white; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
+        .article-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 15px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+        .article-card:hover { transform: translateY(-5px); box-shadow: 0 5px 25px rgba(0,0,0,0.15); }
+        .article-card h2 { padding: 20px 20px 10px; font-size: 1.2em; color: #333; }
+        .article-card p { padding: 0 20px 15px; color: #666; font-size: 0.95em; }
+        .article-card .meta { padding: 15px 20px; border-top: 1px solid #eee; font-size: 0.85em; color: #999; }
+        .article-card a { color: #e74c3c; text-decoration: none; }
+        .article-card a:hover { text-decoration: underline; }
+        .footer { background: #333; color: white; padding: 30px; text-align: center; margin-top: 60px; }
+        .footer a { color: #e74c3c; text-decoration: none; }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <a href="../index.html" class="logo">An Hòa<span>Mỹ Các</span></a>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="../index.html">Trang chủ</a></li>
-                    <li><a href="../services.html">Dịch vụ</a></li>
-                    <li><a href="../pricing.html">Bảng giá</a></li>
-                    <li><a href="../doctors.html">Bác sĩ</a></li>
-                    <li><a href="../reviews.html">Đánh giá</a></li>
-                    <li><a href="../faq.html">FAQ</a></li>
-                    <li><a href="../contact.html">Liên hệ</a></li>
-                    <li><a href="../../../index.html" class="lang-switch">🇨🇳 中文</a></li>
-                </ul>
-                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
-            </div>
-        </nav>
-    </header>
-
-    <section class="page-header">
-        <div class="container">
-            <h1>📰 Tin Tức Thẩm Mỹ Thượng Hải</h1>
-            <p>Thông tin tham khảo về phẫu thuật thẩm mỹ Thượng Hải & An Hòa Mỹ Các</p>
-        </div>
-    </section>
-
+    <div class="header">
+        <h1>Trung tâm Tin tức Anhe Meige</h1>
+        <p>Hướng dẫn chuyên gia về du lịch y tế, phẫu thuật thẩm mỹ và điều trị làm đẹp tại Thượng Hải</p>
+    </div>
+    <div class="lang-bar">
+        <strong>Ngôn ngữ:</strong>
+        <a href="https://anhemeg.top/en/news/">English</a>
+        <a href="https://anhemeg.top/news/">中文</a>
+        <a href="https://anhemeg.top/vi/news/">Tiếng Việt</a>
+    </div>
     <div class="container">
-        <div class="breadcrumb">
-            <a href="../index.html">Trang chủ</a>
-            <span>/</span>
-            Tin tức
-        </div>
-    </div>
-
-    <section class="content-wrapper">
-        <div class="container">
-            <div class="services-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px;">
-
-                <a href="1-an-hoa-my-cac-review.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e17055, #fab1a0); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">An Hòa Mỹ Các Review</h3>
-                        <span style="font-size:12px; opacity:0.85;">Đánh giá · Review</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Đánh giá tổng quan từ khách hàng Việt Nam về dịch vụ, bác sĩ và trải nghiệm thực tế tại An Hòa Mỹ Các.</p>
-                    </div>
-                </a>
-
-                <a href="2-phau-thuat-tham-my-thuong-hai-co-tot-khong.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #00b894, #55efc4); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Phẫu Thuật Thẩm Mỹ Thượng Hải Có Tốt Không?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Đánh giá · Kinh nghiệm</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Góc nhìn thực tế về chất lượng thẩm mỹ Thượng Hải và so sánh với Hàn Quốc.</p>
-                    </div>
-                </a>
-
-                <a href="3-an-hoa-my-cac-khach-hang-viet-nam.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #0984e3, #74b9ff); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Trải Nghiệm Khách Hàng Việt Nam</h3>
-                        <span style="font-size:12px; opacity:0.85;">Đánh giá · Trải nghiệm</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hành trình từ tư vấn online đến hậu phẫu: trải nghiệm chi tiết từ A đến Z.</p>
-                    </div>
-                </a>
-
-                <a href="4-an-hoa-my-cac-co-uy-tin-khong.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #6c5ce7, #a29bfe); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">An Hòa Mỹ Các Có Uy Tín Không?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Chính quy · Uy tín</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Phân tích đa chiều về uy tín, giấy phép và phản hồi khách hàng.</p>
-                    </div>
-                </a>
-
-                <a href="5-an-hoa-my-cac-co-chinh-quy-khong.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #d63031, #ff7675); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">An Hòa Mỹ Các Có Chính Quy Không?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Chính quy · Pháp lý</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn kiểm tra giấy phép hành nghề và bằng cấp bác sĩ.</p>
-                    </div>
-                </a>
-
-                <a href="6-an-hoa-my-cac-dang-tin-khong.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e17055, #fdcb6e); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">An Hòa Mỹ Các Đáng Tin Không?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Uy tín · Đáng tin</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Tiêu chí đánh giá độ tin cậy và cách bảo vệ quyền lợi khi thẩm mỹ nước ngoài.</p>
-                    </div>
-                </a>
-
-                <a href="7-vien-tham-my-thuong-hai-chinh-quy-cho-nguoi-viet.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #00cec9, #81ecec); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Viện Thẩm Mỹ Thượng Hải Chính Quy</h3>
-                        <span style="font-size:12px; opacity:0.85;">Chính quy · Hướng dẫn</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Nhận biết viện thẩm mỹ chính quy tại Thượng Hải cho người Việt Nam.</p>
-                    </div>
-                </a>
-
-                <a href="8-an-hoa-my-cac-hop-ly-va-an-toan.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #2d3436, #636e72); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">An Hòa Mỹ Các: Hợp Lý Và An Toàn</h3>
-                        <span style="font-size:12px; opacity:0.85;">An toàn · Khách quan</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Đánh giá khách quan về quy trình an toàn và quản lý rủi ro.</p>
-                    </div>
-                </a>
-
-                <a href="9-bang-gia-phau-thuat-tham-my-thuong-hai.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #fdcb6e, #ffeaa7); padding:20px; color:#2d3436;">
-                        <h3 style="margin:0; font-size:16px;">Bảng Giá Thẩm Mỹ Thượng Hải 2025</h3>
-                        <span style="font-size:12px; opacity:0.75;">Giá · Bảng giá</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Bảng giá chi tiết cắt mí, nâng mũi, gọt mặt, nâng ngực, hút mỡ.</p>
-                    </div>
-                </a>
-
-                <a href="gia-phau-thuat-mui-thuong-hai-bao-nhieu.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e67e22, #f39c12); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Giá Phẫu Thuật Mũi Thượng Hải Bao Nhiêu?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Giá · Hướng dẫn 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn chi phí phẫu thuật mũi tại Thượng Hải cho bệnh nhân quốc tế năm 2026.</p>
-                    </div>
-                </a>
-
-                <a href="phau-thuat-tham-my-thuong-hai-can-luu-y-gi.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #27ae60, #2ecc71); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Phẫu Thuật Thẩm Mỹ Thượng Hải Cần Lưu Ý Gì?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Lưu Ý · Hướng dẫn 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Những lưu ý quan trọng khi phẫu thuật thẩm mỹ tại Thượng Hải cho bệnh nhân quốc tế.</p>
-                    </div>
-                </a>
-
-                <a href="10-chi-phi-cat-mi-nang-mui-thuong-hai.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #f39c12, #f1c40f); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Chi Phí Cắt Mí Nâng Mũi Thượng Hải</h3>
-                        <span style="font-size:12px; opacity:0.85;">Giá · Chi tiết</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Báo giá và kinh nghiệm tiết kiệm chi phí cắt mí nâng mũi.</p>
-                    </div>
-                </a>
-
-                <a href="11-gia-tham-my-thuong-hai-vs-han-quoc.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Giá Thẩm Mỹ Thượng Hải VS Hàn Quốc</h3>
-                        <span style="font-size:12px; opacity:0.85;">Giá · So sánh</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">So sánh chi tiết giá thẩm mỹ Thượng Hải và Hàn Quốc cho người Việt.</p>
-                    </div>
-                </a>
-
-                <a href="huong-dan-du-lich-y-te-thuong-hai-cho-nguoi-viet.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #00b894, #55efc4); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Hướng Dẫn Du Lịch Y Tế Thượng Hải Cho Người Việt</h3>
-                        <span style="font-size:12px; opacity:0.85;">Du lịch · Hướng dẫn 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn toàn diện từ A đến Z: Visa, đặt lịch, chi phí, chỗ ở và kinh nghiệm thực tế.</p>
-                    </div>
-                </a>
-
-                <a href="so-sanh-tham-my-thuong-hai-va-han-quoc-2026.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #fd79a8, #e84393); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">So Sánh Thẩm Mỹ Thượng Hải Và Hàn Quốc 2026</h3>
-                        <span style="font-size:12px; opacity:0.85;">So sánh · Hướng dẫn</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">So sánh chi tiết chi phí, chất lượng bác sĩ, cơ sở vật chất giữa Thượng Hải và Hàn Quốc.</p>
-                    </div>
-                </a>
-
-                <a href="12-bac-si-ho-chi-an-hoa-my-cac.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #74b9ff, #0984e3); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Bác Sĩ Hồ Chí An Hòa Mỹ Các</h3>
-                        <span style="font-size:12px; opacity:0.85;">Bác sĩ · Chuyên môn</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Kinh nghiệm, chuyên môn và đánh giá từ khách hàng Việt Nam.</p>
-                    </div>
-                </a>
-
-                <a href="giới-thiệu-giám-đốc-hồ-chí-anhe-meige-thượng-hải.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #00cec9, #81ecec); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Giám Đốc Hồ Chí — Chuyên Gia Nâng Mũi 20 Năm</h3>
-                        <span style="font-size:12px; opacity:0.85;">Hồ sơ bác sĩ · Chi tiết</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Phân tích chuyên sâu về chuyên môn S-line, V-line và kinh nghiệm 5.000+ ca của Giám đốc Hồ Chí.</p>
-                    </div>
-                </a>
-
-                <a href="dr-su-bin-phau-thuat-mat-trai-hoa-khuon-mat.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #a29bfe, #6c5ce7); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Bác Sĩ Tô Bân: Chuyên Gia Phẫu Thuật Mắt & Trẻ Hóa Khuôn Mặt</h3>
-                        <span style="font-size:12px; opacity:0.85;">Bác sĩ · Hồ sơ chuyên sâu</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hồ sơ chuyên môn 3.000+ ca phẫu thuật mắt, kỹ thuật hút mỡ nâng da, kinh nghiệm 15+ năm.</p>
-                    </div>
-                </a>
-
-                <a href="bac-si-phau-thuat-tham-my-gioi-nhat-thuong-hai-huong-dan.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #0984e3, #74b9ff); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Bác Sĩ Phẫu Thuật Thẩm Mỹ Giỏi Nhất Thượng Hải</h3>
-                        <span style="font-size:12px; opacity:0.85;">Bác sĩ · Hướng dẫn 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn toàn diện cho bệnh nhân quốc tế về cách chọn bác sĩ phẫu thuật thẩm mỹ giỏi nhất tại Thượng Hải.</p>
-                    </div>
-                </a>
-
-                <a href="14-an-hoa-my-cac-vs-cac-phong-kham-khac.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #fd79a8, #e84393); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">An Hòa Mỹ Các VS Các Phòng Khám Khác</h3>
-                        <span style="font-size:12px; opacity:0.85;">Thương hiệu · So sánh</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">So sánh khách quan về dịch vụ, chi phí và hỗ trợ khách Việt.</p>
-                    </div>
-                </a>
-
-                <a href="15-diem-khac-biet-an-hoa-my-cac.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e17055, #d63031); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Điểm Khác Biệt Của An Hòa Mỹ Các</h3>
-                        <span style="font-size:12px; opacity:0.85;">Thương hiệu · Khác biệt</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Dịch vụ trọn gói, phiên dịch y khoa và hậu phẫu xuyên biên giới.</p>
-                    </div>
-                </a>
-
-                <a href="16-an-hoa-my-cac-thuong-hieu-tham-my-thuong-hai.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #55efc4, #00b894); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Thương Hiệu An Hòa Mỹ Các</h3>
-                        <span style="font-size:12px; opacity:0.85;">Thương hiệu · Tầm nhìn</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Lịch sử, tầm nhìn và giá trị cốt lõi của thương hiệu dành cho khách Việt.</p>
-                    </div>
-                </a>
-
-                <a href="17-kinh-nghiem-di-tham-my-thuong-hai.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #ffeaa7, #fdcb6e); padding:20px; color:#2d3436;">
-                        <h3 style="margin:0; font-size:16px;">Kinh Nghiệm Đi Thẩm Mỹ Thượng Hải</h3>
-                        <span style="font-size:12px; opacity:0.75;">Hướng dẫn · Kinh nghiệm</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn từ A đến Z: visa, chọn viện, hậu phẫu và trở về Việt Nam.</p>
-                    </div>
-                </a>
-
-                <a href="so-sanh-tham-my-thuong-hai-han-quoc.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e84393, #fd79a8); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">So Sánh Thẩm Mỹ Thượng Hải và Hàn Quốc</h3>
-                        <span style="font-size:12px; opacity:0.85;">So sánh · Chi phí</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn so sánh chi tiết giữa phẫu thuật thẩm mỹ tại Thượng Hải và Hàn Quốc.</p>
-                    </div>
-                </a>
-
-                <a href="gia-phau-thuat-mui-thuong-hai-2026-huong-dan-chi-tiet.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e67e22, #f39c12); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Giá Phẫu Thuật Mũi Ở Thượng Hải Bao Nhiêu? 2026</h3>
-                        <span style="font-size:12px; opacity:0.85;">Hướng dẫn chi phí · Mới 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn chi phí phẫu thuật mũi tại Thượng Hải 2026 đầy đủ cho khách quốc tế.</p>
-                    </div>
-                </a>
-
-                <a href="gia-cang-da-mat-thuong-hai-2026-huong-dan-chi-tiet.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #9b59b6, #8e44ad); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Giá Căng Da Mặt Ở Thượng Hải Bao Nhiêu? 2026</h3>
-                        <span style="font-size:12px; opacity:0.85;">Hướng dẫn chi phí · Mới 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn chi phí căng da mặt tại Thượng Hải 2026 chi tiết cho khách quốc tế.</p>
-                    </div>
-                </a>
-
-                <a href="cang-da-mat-thuong-hai-can-luu-y-gi.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #16a085, #1abc9c); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Căng Da Mặt Ở Thượng Hải Cần Lưu Ý Gì?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Lưu Ý · Mới 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Những điều bệnh nhân quốc tế cần lưu ý trước khi phẫu thuật căng da mặt tại Thượng Hải (Shanghai).</p>
-                    </div>
-                </a>
-
-                <a href="phau-thuat-tham-my-thuong-hai-can-luu-y-gi-huong-dan.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #3498db, #2980b9); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Phẫu Thuật Thẩm Mỹ Thượng Hải Cần Lưu Ý Gì? 2026</h3>
-                        <span style="font-size:12px; opacity:0.85;">Hướng dẫn toàn diện · Mới 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn toàn diện những điều cần lưu ý khi phẫu thuật thẩm mỹ tại Thượng Hải.</p>
-                    </div>
-                </a>
-
-                <a href="phau-thuat-mui-thuong-hai-can-luu-y-gi.html" style="text-decoration:none; color:inherit; display:block; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform 0.2s;">
-                    <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding:20px; color:#fff;">
-                        <h3 style="margin:0; font-size:16px;">Phẫu Thuật Mũi Ở Thượng Hải Cần Lưu Ý Gì?</h3>
-                        <span style="font-size:12px; opacity:0.85;">Lưu Ý · Mới 2026</span>
-                    </div>
-                    <div style="padding:16px;">
-                        <p style="font-size:13px; color:#666; margin:0;">Hướng dẫn toàn diện cho người nước ngoài về những điều cần lưu ý khi phẫu thuật mũi tại Thượng Hải (Shanghai).</p>
-                    </div>
-                </a>
-
+        <div class="article-grid">
+            <div class="article-card">
+                <h2><a href="mat-doi-shanghai-ly-do-chon.html">Tại sao người Trung Quốc chọn phẫu thuật mắt đôi ở Thượng Hải?</a></h2>
+                <p>Ngày càng nhiều người Trung Quốc lựa chọn phẫu thuật mắt đôi tại Thượng Hải. Bài viết phân tích lý do và giới thiệu dịch vụ tại Anhe Meige.</p>
+                <div class="meta">Đăng 2026-06-16</div>
+            </div>
+            <div class="article-card">
+                <h2><a href="phau-thuat-mui-thuong-hai-can-luu-y-gi.html">Phẫu thuật mũi ở Thượng Hải cần lưu ý gì?</a></h2>
+                <p>Hướng dẫn toàn diện về phẫu thuật mũi tại Thượng Hải cho người nước ngoài, bao gồm các lưu ý quan trọng và cách chọn bệnh viện.</p>
+                <div class="meta">Đăng 2026-06-15</div>
+            </div>
+            <div class="article-card">
+                <h2><a href="cang-da-mat-thuong-hai-nhung-dieu-can-luu-y.html">Căng da mặt ở Thượng Hải những điều cần lưu ý</a></h2>
+                <p>Hướng dẫn toàn diện về phẫu thuật căng da mặt tại Thượng Hải cho bệnh nhân quốc tế.</p>
+                <div class="meta">Đăng 2026-06-14</div>
+            </div>
+            <div class="article-card">
+                <h2><a href="bac-si-phau-thuat-tham-my-gioi-nhat-thuong-hai-huong-dan.html">Bác sĩ phẫu thuật thẩm mỹ giỏi nhất Thượng Hải</a></h2>
+                <p>Hướng dẫn cách tìm bác sĩ phẫu thuật thẩm mỹ giỏi nhất tại Thượng Hải cho bệnh nhân quốc tế.</p>
+                <div class="meta">Đăng 2026-06-06</div>
+            </div>
+            <div class="article-card">
+                <h2><a href="so-sanh-tham-my-thuong-hai-va-han-quoc.html">So sánh thẩm mỹ Thượng Hải và Hàn Quốc</a></h2>
+                <p>So sánh chi tiết giữa phẫu thuật thẩm mỹ tại Thượng Hải và Hàn Quốc để bạn đưa ra quyết định sáng suốc.</p>
+                <div class="meta">Đăng 2026-06-05</div>
+            </div>
+            <div class="article-card">
+                <h2><a href="gia-cang-da-mat-thuong-hai-bao-nhieu.html">Giá căng da mặt ở Thượng Hải bao nhiêu?</a></h2>
+                <p>Phân tích chi tiết chi phí phẫu thuật căng da mặt tại Thượng Hải và các yếu tố ảnh hưởng đến giá.</p>
+                <div class="meta">Đăng 2026-06-04</div>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>© 2024 <a href="../index.html">An Hòa Mỹ Các</a> | Viện Thẩm Mỹ Thượng Hải cho Người Việt</p>
-                <p style="margin-top: 10px; font-size: 13px;">
-                    WeChat: kyt3158 | Zalo/WhatsApp: +86 18221354269
-                </p>
-                <p style="margin-top: 10px; font-size: 12px; color: rgba(255,255,255,0.45);">
-                    Miễn trừ trách nhiệm: Website này chỉ cung cấp thông tin tư vấn tham khảo, không phải dịch vụ y tế. Vui lòng tham khảo ý kiến bác sĩ chuyên khoa trước khi quyết định.
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="fixed-contact-bar">
-        <button class="contact-row wechat-row" onclick="copyWechat()">
-            <span class="contact-icon">💚</span>
-            <span class="contact-text">WeChat: <strong>kyt3158</strong></span>
-        </button>
-        <a href="https://wa.me/8618221354269" class="contact-row whatsapp-row">
-            <span class="contact-icon">💬</span>
-            <span class="contact-text">WhatsApp: <strong>+8618221354269</strong></span>
-        </a>
-        <a href="tel:+8618221354269" class="contact-row phone-row">
-            <span class="contact-icon">📞</span>
-            <span class="contact-text">Điện thoại: <strong>+8618221354269</strong></span>
-        </a>
     </div>
-
-    <script>
-    function toggleMenu() {
-        document.getElementById('navLinks').classList.toggle('open');
-    }
-    document.querySelectorAll('.nav-links a').forEach(function(link) {
-        link.addEventListener('click', function() {
-            document.getElementById('navLinks').classList.remove('open');
-        });
-    });
-    function copyWechat() {
-        navigator.clipboard.writeText('kyt3158').then(function() {
-            var toast = document.createElement('div');
-            toast.className = 'copy-toast show';
-            toast.textContent = 'Đã sao chép WeChat: kyt3158';
-            document.body.appendChild(toast);
-            setTimeout(function() { toast.remove(); }, 2000);
-        });
-    }
-    </script>
+    <div class="footer">
+        <p>Anhe Meige Thẩm mỹ Y tế | <a href="https://anhemeg.top/vi/">Quay về Trang chủ</a></p>
+        <p style="margin-top:10px;font-size:0.9em;opacity:0.8;">WeChat: kyt3158 | Phone: 18221354269</p>
+    </div>
 </body>
 </html>
