@@ -156,4 +156,10 @@
   <url><loc>https://anhemeg.top/vi/news/điều-trị-chống-lão-hóa-ở-thượng-hải.html</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://anhemeg.top/vi/news/điều-trị-trẻ-hóa-da-tại-thượng-hải.html</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://anhemeg.top/vi/index.html</loc><lastmod>2026-07-06</lastmod></url>
+  <url>
+    <loc>https://anhemeg.top/vi/news/cong-nghe-thiet-bi-anhe-meige-thuong-hai-2026.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

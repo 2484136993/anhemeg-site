@@ -308,4 +308,10 @@
   <url><loc>https://anhemeg.top/about.html</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://anhemeg.top/contact.html</loc><lastmod>2026-07-06</lastmod></url>
   <url><loc>https://anhemeg.top/news.html</loc><lastmod>2026-07-06</lastmod></url>
+  <url>
+    <loc>https://anhemeg.top/news/anhe-meige-jishu-shili-shendu-jiesao-2026.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
